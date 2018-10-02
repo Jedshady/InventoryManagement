@@ -36,6 +36,7 @@ public class LoginController {
 		l_view.setVisible(true);
 	}
 	
+	
 	public boolean checkInputs(){
 		boolean isLegal = true;
 		if(l_view.getTxt_Username().getText().equals("")){

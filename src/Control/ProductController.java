@@ -87,7 +87,7 @@ public class ProductController {
 	public boolean addNewProduct(){
 		if(checkInputs() && p_model.getImagePath() != null){
 			PreparedStatement ps;
-			String query = "INSERT INTO `products`(`p_name`, `p_price`, `p_quantity`, `p_category`, `p_image`) VALUES (?, ?, ?, ?, ?)";
+			String query = "INSERT INTO `products`(`p_name`, `p_price`, `p_quantity`,`p_category`, `p_image`) VALUES (?, ?, ?, ?, ?)";
 			
 			try {
 				ps = DatabaseConnector.getConnection().prepareStatement(query);

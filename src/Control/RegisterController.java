@@ -42,6 +42,13 @@ public class RegisterController {
 	}
 	
 	public void showView() {
+		r_view.getTxt_FirstName().setText(null);
+		r_view.getTxt_LastName().setText(null);
+		r_view.getTxt_Username().setText(null);
+		r_view.getPsw_Password().setText(null);
+		r_view.getPsw_RetypePassword().setText(null);
+		r_view.getjDateChooser_Birthday().setDate(null);
+		
 		r_view.setLocationRelativeTo(null);
 		r_view.setResizable(false);
 		r_view.setVisible(true);

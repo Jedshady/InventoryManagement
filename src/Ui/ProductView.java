@@ -86,7 +86,7 @@ public class ProductView extends javax.swing.JFrame {
 
         lbl_Image.setText("Image:");
 
-        cbx_Category.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Phone", "Computer" }));
+        cbx_Category.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Phone", "Computer", "Tablet" }));
 
         win_Image.setOpaque(true);
 
